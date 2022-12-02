@@ -1,7 +1,7 @@
 #![allow(unused)]
-mod day1;
+mod day2;
 
 fn main() {
-    let result = day1::part2();
+    let result = day2::part2();
     println!("{result}");
 }

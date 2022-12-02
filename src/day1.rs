@@ -24,5 +24,5 @@ pub fn part2() -> usize {
         })
         .collect::<Vec<usize>>();
     calories.sort_by(|a, b| b.cmp(a));
-    return calories[0..3].iter().sum();
+    return calories.iter().take(3).sum();
 }
